@@ -4,9 +4,17 @@ README.rst
 requirements.txt
 setup.cfg
 setup.py
+signalfx_serverless/__init__.py
+signalfx_serverless/version.py
 signalfx_serverless.egg-info/PKG-INFO
 signalfx_serverless.egg-info/SOURCES.txt
 signalfx_serverless.egg-info/dependency_links.txt
 signalfx_serverless.egg-info/requires.txt
 signalfx_serverless.egg-info/top_level.txt
 signalfx_serverless.egg-info/zip-safe
+signalfx_serverless/signalfx_gcf/__init__.py
+signalfx_serverless/signalfx_gcf/utils.py
+signalfx_serverless/signalfx_serverless_common/__init__.py
+signalfx_serverless/signalfx_serverless_common/metrics.py
+signalfx_serverless/signalfx_serverless_common/tracing.py
+signalfx_serverless/signalfx_serverless_common/utils.py
