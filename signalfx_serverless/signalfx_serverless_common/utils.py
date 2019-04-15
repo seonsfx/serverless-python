@@ -9,9 +9,11 @@ source = None
 fields = {}
 
 def get_source():
+    global source
     return source
 
 def get_fields():
+    global fields
     return fields.copy()
 
 def get_metrics_url():
@@ -51,9 +53,10 @@ def get_access_token():
     return token
 
 def set_source(s):
+    global source
     source = s
-    print('Initting 3! with ' + s)
 
 def set_fields(fs):
+    global fields
     for key, value in fs.items():
         fields[key] = value

@@ -5,7 +5,6 @@ from .. import signalfx_serverless_common
 from . import utils
 # from .version import name, version
 
-print('Initting!')
 fields = utils.get_fields()
 signalfx_serverless_common.configure('gcf', fields)
     
