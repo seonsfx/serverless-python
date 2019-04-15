@@ -1,6 +1,6 @@
 # Copyright (C) 2019 SignalFx, Inc. All rights reserved.
 
-from signalfx_serverless.signalfx_serverless import signalfx_serverless_common
+from .. import signalfx_serverless_common
 
 from . import utils
 # from .version import name, version

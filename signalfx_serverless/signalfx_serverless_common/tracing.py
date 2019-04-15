@@ -2,7 +2,7 @@
 
 import functools
 import os
-import opentracing
+from ... import opentracing
 import pip
 import warnings
 from jaeger_client import Config
