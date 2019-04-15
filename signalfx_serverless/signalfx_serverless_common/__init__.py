@@ -1,6 +1,8 @@
 # Copyright (C) 2019 SignalFx, Inc. All rights reserved.
 
-import signalfx
+from .. import signalfx
+from .. import opentracing
+from .. import jaeger_client
 import os
 import datetime
 
