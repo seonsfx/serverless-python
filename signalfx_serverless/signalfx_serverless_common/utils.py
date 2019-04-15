@@ -58,6 +58,7 @@ def set_source(s):
     global source
 
     source = s
+    print('Initting 3! with ' + s)
 
 def set_fields(fs):
     global fields

@@ -10,6 +10,7 @@ from . import tracing
 # from .version import name, version
 
 def configure(source, fields):
+    print('Initting 2!')
     utils.set_source(source)
     utils.set_fields(fields)
 
