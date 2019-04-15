@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+signalfx_serverless.egg-info/PKG-INFO
+signalfx_serverless.egg-info/SOURCES.txt
+signalfx_serverless.egg-info/dependency_links.txt
+signalfx_serverless.egg-info/requires.txt
+signalfx_serverless.egg-info/top_level.txt
+signalfx_serverless.egg-info/zip-safe
