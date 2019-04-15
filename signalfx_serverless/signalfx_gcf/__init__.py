@@ -1,9 +1,9 @@
 # Copyright (C) 2019 SignalFx, Inc. All rights reserved.
 
 from .. import signalfx_serverless_common
+from ..version import name, version
 
 from . import utils
-# from .version import name, version
 
 fields = utils.get_fields()
 signalfx_serverless_common.configure('gcf', fields)

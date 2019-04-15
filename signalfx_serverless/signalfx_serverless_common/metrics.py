@@ -5,8 +5,9 @@ import signalfx
 import os
 import datetime
 
+from ..version import name, version
+
 from . import utils
-# from .version import name, version
 
 ingest_endpoint = utils.get_metrics_url()
 ingest_timeout = os.environ.get('SIGNALFX_SEND_TIMEOUT', 0.3)

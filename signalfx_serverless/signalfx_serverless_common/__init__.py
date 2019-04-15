@@ -4,10 +4,12 @@ import signalfx
 import os
 import datetime
 
+from ..version import name, version
+
 from . import utils
 from . import metrics
 from . import tracing
-# from .version import name, version
+
 
 def configure(source, fields):
     utils.set_source(source)
