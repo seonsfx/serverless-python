@@ -51,8 +51,12 @@ def get_access_token():
     return token
 
 def set_source(s):
+    global source
+
     source = s
 
 def set_fields(fs):
+    global fields
+    
     for key, value in fs.items():
         fields[key] = value
