@@ -8,7 +8,7 @@ from setuptools import setup
 with open('requirements.txt') as f:
     requirements = [line.strip() for line in f.readlines()]
 
-for pkg in ('signalfx_gcf', 'signalfx_lambda'):
+for pkg in ('signalfx_serverless_gcf', 'signalfx_serverless_lambda'):
     vars = {}
 
     with open(path.join(pkg, 'version.py')) as f:
