@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: signalfx-serverless-lambda
+Version: 0.0.1
+Summary: SignalFx Python Serverless Wrapper
+Home-page: https://github.com/seonsfx/serverless-python
+Author: SignalFx, Inc
+Author-email: info@signalfx.com
+License: Apache Software License v2
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst

@@ -12,6 +12,7 @@ for pkg in ('signalfx_gcf', 'signalfx_lambda'):
     vars = {}
 
     with open(path.join(pkg, 'version.py')) as f:
+        print(path.join(pkg, 'version.py'))
         exec(f.read(), vars)
 
     with open(path.join(pkg, 'README.rst')) as readme:
