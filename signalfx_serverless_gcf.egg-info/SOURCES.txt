@@ -1,0 +1,16 @@
+README.rst
+setup.cfg
+setup.py
+signalfx_gcf/__init__.py
+signalfx_gcf/utils.py
+signalfx_gcf/version.py
+signalfx_gcf/serverless/__init__.py
+signalfx_gcf/serverless/metrics.py
+signalfx_gcf/serverless/tracing.py
+signalfx_gcf/serverless/utils.py
+signalfx_serverless_gcf.egg-info/PKG-INFO
+signalfx_serverless_gcf.egg-info/SOURCES.txt
+signalfx_serverless_gcf.egg-info/dependency_links.txt
+signalfx_serverless_gcf.egg-info/requires.txt
+signalfx_serverless_gcf.egg-info/top_level.txt
+signalfx_serverless_gcf.egg-info/zip-safe
