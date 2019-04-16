@@ -3,6 +3,7 @@
 
 # Copyright (C) 2019 SignalFx, Inc. All rights reserved.
 
+import sys
 from setuptools import setup, find_packages
 
 with open('signalfx_gcf/version.py') as f:
