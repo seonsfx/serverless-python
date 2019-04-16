@@ -1,7 +1,7 @@
 # Copyright (C) 2019 SignalFx, Inc. All rights reserved.
 
-name = 'signalfx_serverless_gcf'
+name = 'signalfx_serverless_lambda'
 version = '0.0.1'
 
 user_agent = 'signalfx_serverless/' + version
-packages = ['signalfx_serverless_gcf', 'signalfx_serverless_gcf.serverless']
+packages = ['signalfx_lambda', 'signalfx_lambda.serverless']

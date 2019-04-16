@@ -4,4 +4,4 @@ name = 'signalfx_serverless_lambda'
 version = '0.0.1'
 
 user_agent = 'signalfx_serverless/' + version
-packages = ['signalfx_serverless_lambda', 'signalfx_serverless_lambda.serverless']
+packages = ['signalfx_lambda', 'signalfx_lambda.serverless']
