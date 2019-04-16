@@ -5,7 +5,6 @@ from .version import name, version
 
 from . import utils
 
-print("Initting")
 fields = utils.get_fields()
 serverless.configure('gcf', fields)
     
